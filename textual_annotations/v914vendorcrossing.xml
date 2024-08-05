@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Record>
+		<FileName>v914vendorcrossing.xml</FileName>
+		<crossing>yes</crossing>
+		<Interaction>yes</Interaction>
+		<Type>individual </Type>
+		<designated>ND</designated>
+		<Duration>7</Duration>
+		<Timestamp>4</Timestamp>
+		<Gender>Female</Gender>
+		<Time>Morning</Time>
+		<Weather>Cloudy</Weather>
+	</Record>
+	

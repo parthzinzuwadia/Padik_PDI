@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Record>
+		<FileName>v733crosswalkst2.xml</FileName>
+		<crossing>no</crossing>
+		<Interaction>yes</Interaction>
+		<Type>individual</Type>
+		<designated>ND</designated>
+		<Duration>5</Duration>
+		<Timestamp>1</Timestamp>
+		<Gender>Male</Gender>
+		<Time>Morning</Time>
+		<Weather>Sunny</Weather>
+	</Record>
+	
