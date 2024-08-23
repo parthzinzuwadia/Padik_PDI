@@ -2,13 +2,13 @@
 
 [Dataset Overview](#Dataset-Overview) <br>
 [Annotations](#Annotations) <br>
-[Video Clips](#Video-Clips)
-Interface
-Usage
-Detection Data
-Citation
-Authors
-License
+[Video Clips](#Video-Clips) <br>
+[Interface](#Interface) <br>
+[Usage](#Usage) <br>
+[Detection Data](#Detection-Data) <br>
+[Citation](#Citation) <br>
+[Authors](#Authors) <br>
+[License](#License) <br>
 
 # Dataset Overview
 
@@ -30,6 +30,7 @@ The folder "PD Videos" contains 199 video clips, which you can download manually
 PDVideos/GOPR7130_clip1.mp4
 PDVideos/GOPR7131_clip3.mp4
 …
+
 Interface
 
 Dependencies:
@@ -53,10 +54,13 @@ Detection Data
 The interface includes a get_detection_data() method for generating detection data. The following methods are used in the code to process and analyze video frames:
 create_xml(frame_data, output_path)
 Generates an XML file containing the detection data for each frame in the video.
+
 draw_bounding_boxes(frame, bbox_list)
 Draws bounding boxes around detected pedestrians on each frame, with different colors indicating occlusion status.
+
 get_bounding_boxes(detections, frame_width, frame_height, labels, conf_threshold=0.7)
 Extracts bounding boxes from detection data, filtering results based on confidence, aspect ratio, and height.
+
 process_video(video_path, output_xml_path, model_path, config_path, labels_path)
 Main function that processes the video, detects pedestrians, draws bounding boxes, and saves the detection data in an XML file.
 
