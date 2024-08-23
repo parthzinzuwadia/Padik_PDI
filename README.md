@@ -31,7 +31,7 @@ PDVideos/GOPR7130_clip1.mp4
 PDVideos/GOPR7131_clip3.mp4
 …
 
-Interface
+# Interface
 
 Dependencies:
 
@@ -46,11 +46,11 @@ YOLOv3 Weights
 YOLOv3 Configuration
 Labels File
 
-Usage
+# Usage
 
 Upon using any method to extract data, the interface first generates a database of all annotations in the form of a dictionary and saves it as a `.pkl` file in the cache directory (default path is `Padik/data_cache`). The interface includes several built-in sequence data generators, accessed via `generate_data_trajectory_sequence()`, with options for custom data generation.
 
-Detection Data
+# Detection Data
 The interface includes a get_detection_data() method for generating detection data. The following methods are used in the code to process and analyze video frames:
 create_xml(frame_data, output_path)
 Generates an XML file containing the detection data for each frame in the video.
@@ -64,7 +64,7 @@ Extracts bounding boxes from detection data, filtering results based on confiden
 process_video(video_path, output_xml_path, model_path, config_path, labels_path)
 Main function that processes the video, detects pedestrians, draws bounding boxes, and saves the detection data in an XML file.
 
-Citation
+# Citation
 
 If you use the Padik dataset in your research, please cite the following paper:
 
@@ -75,7 +75,7 @@ If you use the Padik dataset in your research, please cite the following paper:
   year={2024}
 }
 
-Authors
+# Authors
 
 - Maryam Kaveshgar, Ahmedabad University, Gujarat, India
 - Keyur Joshi, Ahmedabad University, Gujarat, India
@@ -85,6 +85,6 @@ Authors
 
 For any issues related to the dataset, please contact Maryam Kaveshgar at [maryam.kaveshgar@ahduni.edu.in](mailto:maryam.kaveshgar@ahduni.edu.in).
 
-License
+# License
 
 This project is licensed under the MIT License - see the LICENSE file for details. The video clips are licensed under the Creative Commons Attribution 4.0 International License.
