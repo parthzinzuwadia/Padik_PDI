@@ -1,8 +1,8 @@
-Table of contents:
+# Table of contents:
 
-[Dataset Overview](#DatasetOverview)
-[Annotations](#Annotations)
-[Video Clips](#VideoClips)
+[Dataset Overview](#Dataset-Overview) <br>
+[Annotations](#Annotations) <br>
+[Video Clips](#Video-Clips)
 Interface
 Usage
 Detection Data
