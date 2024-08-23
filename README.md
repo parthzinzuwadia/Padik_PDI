@@ -27,9 +27,11 @@ Bounding boxes drawn on detected pedestrians, displayed in a window.The coordina
 
 The folder "PD Videos" contains 199 video clips, which you can download manually.
 
-PDVideos/GOPR7130_clip1.mp4
-PDVideos/GOPR7131_clip3.mp4
-…
+PDVideos/GOPR7130_clip1.mp4 <br>
+PDVideos/GOPR7131_clip3.mp4 <br>
+. <br>
+. <br>
+. <br>
 
 # Interface
 
